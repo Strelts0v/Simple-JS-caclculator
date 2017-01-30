@@ -3,11 +3,33 @@ body{
     color: azure !important;
 }
 
+.calculator{
+    margin: 40px 40px;
+    padding: 10px;
+    height: 330px;
+    width: 250px;
+    border: 2px solid #a6a6a6;
+    border-radius: 30px;
+    background: #684646;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.header{
+    background: #89847e
+}
+
+.display{
+    background: rgb(231, 211, 211);
+    color: #684646;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
 .button{
     width: 40px;
     padding: 2px;
-    margin: 1px;
+    margin: 2px;
     border: 2px solid #c3902a !important;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
 }
 
 .button-fake{
