@@ -3,11 +3,29 @@ body{
     color: azure !important;
 }
 
+.calculator{
+    margin: 40px 40px;
+    padding: 10px;
+    height: 350px;
+    width: 250px;
+    border: 2px solid #a6a6a6;
+    border-radius: 30px;
+    background: #684646;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.display{
+    background: rgb(231, 211, 211);
+    color: #684646;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 2px 2px 2px 0px #89847e;
+}
+
 .button{
     width: 40px;
     padding: 2px;
-    margin: 1px;
-    border: 2px solid #c3902a !important;
+    margin: 3px;
+    border: 1px solid #c3902a !important;
+    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
 }
 
 .button-fake{
@@ -16,9 +34,9 @@ body{
 
 .display {
     height: 30px;
-    width: 178px;
+    width: 190px;
     padding: 5px;
     margin: 4px;
-    border: 3px solid #b98827;
+    border: 2px solid #b98827;
     border-radius: 7px;
 }
